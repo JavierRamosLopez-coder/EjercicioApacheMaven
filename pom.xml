@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>com.everis</groupId>
+	<artifactId>everisdesafiomvn-JRL</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<name>everisdesafiomvn-JRL</name>
+	<!-- FIXME change it to the project's website -->
+	<url>http://www.example.com</url>
+
+	<!-- Propiedades -->
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.source>1.7</maven.compiler.source>
+		<maven.compiler.target>1.7</maven.compiler.target>
+	</properties>
+
+	<!-- Dependencias -->
+
+	<dependencies>
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+			<version>4.11</version>
+			<scope>test</scope>
+		</dependency>
+
+		<!-- Implementación de una dependencia -->
+		<!-- Explicación de esta dependencia -->
+		<!-- Esta dependencia de Maven ha añadido nuevas funciones y correción 
+			de errores -->
+		<!-- 1. Implementación correcta de RandomUtils.nextLong -->
+		<!-- 2. Restaura el manejo de colecciones para toStringStyle -->
+		<!-- 3. Elimina el argumento redundante de la llamada a la subcadena -->
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.12.0</version>
+		</dependency>
+
+		<!-- Implementación de otra dependencia elegida a mi gusto que me ha llamado 
+			la atención -->
+		<!-- A la hora de buscar la única dependencia que me pedía el ejercicio, 
+			busque un poco y ví que la versión 3.9 tenía más usos que la última versión, 
+			por lo que investigue y estas son las características -->
+		<!-- 1. Añadió la clase Functions -->
+		<!-- 2. Agregó el método isEmpty en Object.Utils -->
+		<!-- 3. Se agregó la API a la librería org.apache.commons -->
+
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+			<version>3.9</version>
+		</dependency>
+	</dependencies>
+	
+	<!-- Compilación -->
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<artifactId>maven-clean-plugin</artifactId>
+					<version>3.1.0</version>
+				</plugin>
+				<plugin>
+					<artifactId>maven-resources-plugin</artifactId>
+					<version>3.0.2</version>
+				</plugin>
+				<plugin>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>3.8.0</version>
+				</plugin>
+				<plugin>
+					<artifactId>maven-surefire-plugin</artifactId>
+					<version>2.22.1</version>
+				</plugin>
+				<plugin>
+					<artifactId>maven-jar-plugin</artifactId>
+					<version>3.0.2</version>
+				</plugin>
+				<plugin>
+					<artifactId>maven-install-plugin</artifactId>
+					<version>2.5.2</version>
+				</plugin>
+				<plugin>
+					<artifactId>maven-deploy-plugin</artifactId>
+					<version>2.8.2</version>
+				</plugin>
+				<plugin>
+					<artifactId>maven-site-plugin</artifactId>
+					<version>3.7.1</version>
+				</plugin>
+				<plugin>
+					<artifactId>maven-project-info-reports-plugin</artifactId>
+					<version>3.0.0</version>
+				</plugin>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-site-plugin</artifactId>
+					<version>3.9.1</version>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+	
+	<!-- Desarrolladores -->
+
+	<developers>
+		<developer>
+			<id>jramlope</id>
+			<name>Javier Ramos López</name>
+			<email>jramlope@everis.com</email>
+			<organization>everis</organization>
+			<roles>
+				<role>Estudiante</role>
+			</roles>
+		</developer>
+	</developers>
+	
+</project>
