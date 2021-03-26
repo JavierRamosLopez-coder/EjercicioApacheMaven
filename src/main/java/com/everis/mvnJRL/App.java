@@ -108,7 +108,7 @@ public class App {
 		//Atributo firstInteger y secondInteger
 		if(NumberUtils.compare(firstInteger, secondInteger)== 0) {
 			
-			System.out.println("Los números " + firstInteger + " y " + secondInteger + " son iguales");
+			System.err.println("Los números " + firstInteger + " y " + secondInteger + " son iguales");
 			
 		}else {
 			
