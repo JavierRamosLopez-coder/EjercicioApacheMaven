@@ -11,7 +11,7 @@ import org.apache.commons.lang3.math.NumberUtils;
 public class App {
 	public static void main(String[] args) {
 
-		// Creación de los atributos para la realzación del ejercicio
+		// Creación de los atributos para la realización del ejercicio
 		// Atributos de tipo String
 		final String firstString = "Javier";
 		final String secondString = "Alonso";
